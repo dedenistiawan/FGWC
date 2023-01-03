@@ -20,4 +20,7 @@ param_fgwc <- c(kind='v',ncluster=4,m=2,distance='euclidean',order=3,
 # FGWC Standart
 Res_fgwc <- fgwc(data=sovi_data, pop=Sovi_Pop, distmat=mat_dist, algorithm = "classic", param_fgwc,1)
 
-write.csv(Res_fgwc, file = "final cluster.csv", row.names = TRUE)
+# Menggabungkan hasil cluster algoritma FGWC dengan data
+library(xlsx)
+cluster.output <- cbind(data_kab ,Res_fgwc$cluster)
+write.xlsx(cluster.output, file = "Final Cluster.xlsx", row.names = TRUE)

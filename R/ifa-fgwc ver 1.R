@@ -19,7 +19,7 @@ param_fgwc <- c(kind='v',ncluster=4,m=2,distance='euclidean',order=3,
 # Parameter IFA
 ifa_param <- c(vi.dist='uniform', ei.distr='logchaotic',
                fa.same=10, npar=15, par.no=3, par.dist='minkowski', 
-               par.order=4, gamma=1, beta=1.5,
+               par.order=4, gamma=1, beta=1,
                alpha=1, chaos=4,update_type=4)
 
 #IFA-FGWC
