@@ -23,4 +23,4 @@ pso_param <- c(vi.dist='uniform',npar=15,
 
 #PSO-FGWC
 Res_psofgwc <- fgwc(data=sovi_data, pop=Sovi_Pop, distmat=mat_dist, 
-                    algorithm = "pso", param_fgwc,abc_param)
+                    algorithm = "pso", param_fgwc,pso_param)

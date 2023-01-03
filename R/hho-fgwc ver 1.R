@@ -21,4 +21,4 @@ hho_param <- c(vi.dist='normal',npar=5,same=15,algo='bairathi',a1=3,a2=1,a3=0.4)
 
 #HHO-FGWC
 Res_hhofgwc <- fgwc(data=sovi_data, pop=Sovi_Pop, distmat=mat_dist, 
-                    algorithm = "hho", param_fgwc,abc_param)
+                    algorithm = "hho", param_fgwc,hho_param)

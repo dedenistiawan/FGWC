@@ -21,4 +21,4 @@ tlbo_param <- c(vi.dist="uniform",nstud=10, tlbo.same=10,
                 nselection=10,elitism=FALSE,n.elite=2)
 
 #TLBO-FGWC
-Res_tlbofgwc <- fgwc(data=sovi_data, pop=Sovi_Pop, distmat=mat_dist, algorithm = "tlbo", param_fgwc,abc_param)
+Res_tlbofgwc <- fgwc(data=sovi_data, pop=Sovi_Pop, distmat=mat_dist, algorithm = "tlbo", param_fgwc,tlbo_param)

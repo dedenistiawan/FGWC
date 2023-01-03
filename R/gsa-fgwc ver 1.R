@@ -21,4 +21,4 @@ gsa_param <- c(vi.dist='normal',npar=5,same=15,G=1,vmax=0.7,new=FALSE)
 
 #GSA-FGWC
 Res_gsafgwc <- fgwc(data=sovi_data, pop=Sovi_Pop, distmat=mat_dist, 
-                    algorithm = "gsa", param_fgwc,abc_param)
+                    algorithm = "gsa", param_fgwc,gsa_param)

@@ -8,7 +8,8 @@ load("D:/My Drive/deden-RMarkdown & Github/FGWC/Data/sovi_pop.rdata")
 #Mengubah data frame Sovi distance menjadi matrik distance
 mat_dist= data.matrix(sovi_distance)
 
-# Library yag dibutuhka
+
+# Library yag dibutuhkan
 library(naspaclust)
 library(rdist)
 

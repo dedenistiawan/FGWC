@@ -22,4 +22,4 @@ fpa_param <- c(vi.dist='normal',npar=5,same=15,p=0.7,gamma=1.2,lambda=1.5,
 
 #FPA-FGWC
 Res_fpafgwc <- fgwc(data=sovi_data, pop=Sovi_Pop, distmat=mat_dist, algorithm = "fpa", 
-                    param_fgwc,abc_param)
+                    param_fgwc,fpa_param)
