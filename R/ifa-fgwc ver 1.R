@@ -25,3 +25,8 @@ ifa_param <- c(vi.dist='uniform', ei.distr='logchaotic',
 #IFA-FGWC
 Res_ifafgwc <- fgwc(data=sovi_data, pop=Sovi_Pop, distmat=mat_dist, 
                     algorithm = "ifa", param_fgwc,ifa_param)
+
+# Menggabungkan hasil cluster algoritma FGWC dengan data
+library(xlsx)
+cluster.output <- cbind(data_kab ,Res_ifafgwc$cluster)
+write.xlsx(cluster.output, file = "Final Cluster.xlsx", row.names = TRUE)
