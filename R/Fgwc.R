@@ -1,4 +1,4 @@
-# Load Data
+# Load Data dari rdata
 load("D:/My Drive/deden-RMarkdown & Github/FGWC/Data/census2010.rdata")
 load("D:/My Drive/deden-RMarkdown & Github/FGWC/Data/census2010dist.rdata")
 load("D:/My Drive/deden-RMarkdown & Github/FGWC/Data/census2010pop.rdata")
