@@ -1,4 +1,4 @@
-# Load Data Sovi
+# Load Data Sovi dari drive
 load("D:/My Drive/deden-RMarkdown & Github/FGWC/Data/sovi_data.rdata")
 # Load Data Matrix Distance
 load("D:/My Drive/deden-RMarkdown & Github/FGWC/Data/sovi_dist.rdata")
